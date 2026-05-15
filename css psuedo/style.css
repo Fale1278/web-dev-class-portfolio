@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+
+:root{
+    --main-bg-color: rgb(237, 207, 168);
+    --first-bg-color: rgb(255, 249, 239);
+    ---second-bg-color: rgb(19, 19, 19);
+
+    --first-font-color: rgb(101, 0, 0);
+    --second-font-color: rgb(222, 222, 222);
+    --third-font-color: rgb(51, 51, 51);
+}
+
+body{
+    background-color: var(--main-bg-color);
+    padding: 2rem;
+}
+
+.div1{
+    padding: 2rem;
+    background-color: var(--first-bg-color);
+    border-radius: 1rem;
+}
+
+.div1 h1{
+    font-size: 1.5rem;
+    color: var(--first-font-color);
+}
+
+.div1 p{
+    margin-top: .5rem;
+    font-size: .7rem;
+    color: var(--third-font-color);
+}
+
+.div2{
+    padding: 2rem;
+    margin-top: .5rem;
+    background-color: var(---second-bg-color);
+    border-radius: 1rem;
+}
+
+.div2 h1{
+    font-size: 1.5rem;
+    color: var(--main-bg-color);
+}
+
+.div2 p{
+    margin-top: .5rem;
+    font-size: .7rem;
+    color: var(--second-font-color);
+}
+
+.div3{
+    padding: 2rem;
+    margin-top: .5rem;
+    background-color: var(--first-font-color);
+    border-radius: 1rem;
+}
+
+.div3 h1{
+    font-size: 1.5rem;
+    color: var(--second-font-color);
+}
+
+.div3 p{
+    margin-top: .5rem;
+    font-size: .7rem;
+    color: var(--main-bg-color);
+}
