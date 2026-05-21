@@ -93,8 +93,50 @@
 // console.log(Math.ceil(4.3))
 // console.log(Math.random())
 
-let price = 5000;
-let discount = 0.1;
-let finalPrice = price - (price * discount);
+// let price = 5000;
+// let discount = 0.1;
+// // let finalPrice = price - (price * discount);
 
-console.log(finalPrice)
+// // console.log(finalPrice)
+
+// // Objects
+
+// // let car = {
+// //     name: "Toyota",
+// //     manufactureDate: "2018",
+// //     plateNum: "en2345p"
+// // }
+
+// // console.log(car)
+
+// // car.millage = "80km";
+
+// // console.log(car)
+
+// // car = "King"
+// // console.log(car)
+
+// // const person = {}
+
+// // person.firstName = "King";
+// // person.email = "king@gmail.com";
+// // person.age = 34;
+// // person.phoneNo = 3456565633;
+
+// // console.log(person)
+
+// // person = "OTK";
+// // console.log(person)
+
+
+// let user = {
+//     name: "King",
+//     greet: function(){
+//         console.log("hello")
+//     }
+// }
+
+// console.log(user.name)
+// console.log(user.greet())
+
+// console.log(user.name, user.greet())
