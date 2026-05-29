@@ -22,8 +22,8 @@
 // let greeting = greet();
 // console.log(greeting)
 
-const greet = () => {
-    console.log("Hello")
-}
+// const greet = () => {
+//     console.log("Hello")
+// }
 
-greet()
+// greet()
